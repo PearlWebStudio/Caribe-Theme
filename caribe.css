@@ -1,0 +1,101 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-builtin     { color: #7ad1dd; }
+span.cm-def			{ color: #f0f0f0; }
+span.cm-header      { color: #f0f0f0; }
+span.cm-qualifier	{ color: #aadddd; }
+
+span.cm-atom		{ color: #82828d; }
+span.cm-bracket		{ color: #82828d; }
+span.cm-operator	{ color: #82828d; }
+span.cm-meta		{ color: #82828d; }
+span.cm-tag			{ color: #82828d; }
+
+span.cm-link		{ color: #7ad1dd; }
+span.cm-number		{ color: #aadddd; }
+span.cm-string		{ color: #968879; }
+span.cm-string-2    { color: #f0f0f0; }
+span.cm-variable	{ color: #ccccab; }
+span.cm-variable-2	{ color: #83e1b2; }
+span.cm-variable-3	{ color: #968879; }
+
+span.cm-attribute	{ color: #bbbbc6; }
+span.cm-keyword		{ color: #bbbbc6; }
+span.cm-property	{ color: #bbbbc6; } /* property after string */
+
+span.cm-comment		{ color: #555555; }
+span.cm-error		{ color: #cb3233; }
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror {
+    line-height: 1.5;
+}
+
+.CodeMirror-scroll {
+    background: #141617;
+	color: #b1b1b1;
+}
+
+.CodeMirror-cursor {
+	border-left: 1px solid #fff !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #fff !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #141617;
+	border-right: 1px solid #141617;
+}
+
+.CodeMirror-linenumber {
+	color: #555555;
+}
+
+.CodeMirror-selected {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+
+/* Active Line */
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #fc3d7f !important;
+}
+
+.CodeMirror-activeline-background {
+	background: #1e2021 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #fff;
+	background-color: transparent !important;
+}
+
+
+/* Matching */
+
+.CodeMirror-matchingbracket {
+    background: #555 !important;
+    color: #fff !important;
+}
+
+.CodeMirror-matchingtag {
+    background: #333 !important;
+}
+
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #141617;
+}
+
+#image-holder {
+    color: #c8c6d1;
+}

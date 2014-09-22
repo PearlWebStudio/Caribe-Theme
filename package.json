@@ -1,0 +1,20 @@
+{
+    "title": "Caribe",
+    "name": "caribe",
+    "description": "Minimal theme for Brackets. A Brackets original.",
+    "version": "1.0.0",
+    "author": "PearlWebStudio (https://github.com/PearlWebStudio)",
+    "homepage": "https://github.com/PearlWebStudio/Caribe",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:PearlWebStudio/Caribe.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "caribe.css",
+        "dark": true
+    }
+}
