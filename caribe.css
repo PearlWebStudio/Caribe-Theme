@@ -15,8 +15,8 @@ span.cm-link		{ color: #7ad1dd; }
 span.cm-number		{ color: #aadddd; }
 span.cm-string		{ color: #968879; }
 span.cm-string-2    { color: #f0f0f0; }
-span.cm-variable	{ color: #ccccab; }
-span.cm-variable-2	{ color: #83e1b2; }
+span.cm-variable	{ color: #6e9aba }
+span.cm-variable-2	{ color: #6f889a; }
 span.cm-variable-3	{ color: #968879; }
 
 span.cm-attribute	{ color: #bbbbc6; }
@@ -24,7 +24,7 @@ span.cm-keyword		{ color: #bbbbc6; }
 span.cm-property	{ color: #bbbbc6; } /* property after string */
 
 span.cm-comment		{ color: #555555; }
-span.cm-error		{ color: #cb3233; }
+span.cm-error		{ color: #FFFFFF; background-color: #cb3233 }
 
 
 /* MISC ---------------------------------------------------------------------- */
